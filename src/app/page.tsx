@@ -1,4 +1,4 @@
-import { getConnection } from "./connection"
+import { getConnection } from "../connection"
 
 interface Post {
   id: number
