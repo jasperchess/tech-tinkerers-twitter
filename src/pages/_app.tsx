@@ -22,12 +22,12 @@ export const metadata = {
 
 export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   return (
-    <>
+    <div style={inter.style}>
       <Head>
         <title>{metadata.title}</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
-    </>
+    </div>
   );
 }
