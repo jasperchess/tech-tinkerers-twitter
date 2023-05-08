@@ -3,7 +3,7 @@ import { AppProps } from "next/app";
 import { ReactElement, ReactNode } from "react";
 import { Inter } from "next/font/google";
 
-import "./globals.css";
+import "../globals.css";
 import Head from "next/head";
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
